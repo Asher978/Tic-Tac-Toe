@@ -1,0 +1,46 @@
+body{
+    background: url(../images/main.jpg) no-repeat;
+    background-size: cover;
+    
+}
+#container{
+    border: 0px solid blue;
+    border-radius: 50px;
+    margin: 100px auto;
+    height: 550px;
+    width: 550px;
+    top: 100px;
+}
+.box{
+    /*position: relative;*/
+    
+    height: 150px;
+    width: 150px;
+    border: 0px solid blue;
+    border-radius: 25px;
+    margin: 16px 15px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-Size: 150px;
+    text-align: center;
+}
+.box:hover{
+    background-color: rgba(0,0,0,0.8);
+    transition: linear .5s;
+}
+#restBttn{
+    height: 40px;
+    width: 100px;
+    top: 20px;
+    left: 45%;
+    position: absolute;
+    font-size: 25px;
+    color: rgba(0,0,0,0.54);
+    border-radius: 10px;
+}
+#restBttn:hover{
+    color: rgba(0,0,0,0.84);
+    font-size: 26px;    
+    transition: 2s;
+}
